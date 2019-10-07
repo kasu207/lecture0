@@ -1,0 +1,39 @@
+* {
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  padding-top: 60px;
+}
+
+h2 {
+  color: green;
+}
+
+.nav-background-c {
+  background-color: lightgray;
+}
+
+#heading {
+  text-align: center;
+}
+
+div section h1 {
+  color: lightslategray;
+}
+
+.tabledata {
+  font-weight: 200;
+  font-family: Verdana, sans-serif;
+}
+
+.tabledata {
+  color: lightseagreen;
+}
+
+@media print {
+  body {
+    background-color: darkcyan;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Links to StyleSheets-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>My Webpage for CS50x Python and JavaScript</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light nav-background-c">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="container">
+                <ul class="navbar-nav">
+                    <a class="navbar-brand" href="index.html">Sicily-Vacation</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Overview <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mascali.html">Mascali</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cefalu.html">Cefalù</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="castellamare.html">Castellammare Del Golfo</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <div class="container">
+        <section>
+            <h1 id="heading">My Vacation In Sicily</h1>
+            <p class="text-center">14 days from Mascali to Castellammare del Golfo</p>
+        </section>
+
+        <section class="my-4">
+            <h2 class="text-center">Time spent</h2>
+            <table class="table container">
+                <thead>
+                    <tr>
+                        <th scope="col">Stop</th>
+                        <th scope="col">Arrival</th>
+                        <th scope="col">Departure</th>
+                        <th scope="col">Place</th>
+                        <th scope="col">Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td class="tabledata">21.09.2019</td>
+                        <td>26.09.2019</td>
+                        <td>Mascali</td>
+                        <td><a href="mascali.html">Read more about Mascali</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td class="tabledata">26.09.2019</td>
+                        <td>30.09.2019</td>
+                        <td>Cefalù</td>
+                        <td><a href="cefalu.html">Read more about Cefalù</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td class="tabledata">30.09.2019</td>
+                        <td>05.10.2019</td>
+                        <td>Castellamare del Golfo</td>
+                        <td><a href="castellamare.html">Read more about Castellammare del Golfo</a></td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="my-4">
+            <h2 class="text-center">Places where we have stayed</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://img.ecobnb.net/media/cache/wide_8/media/uploads/4fe2551f401527fe425a92f0e11a6c18f28a6b10.jpeg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mascali</h5>
+                            <p class="card-text">Bagol Area - An EcoFarm on WineYards in Mascali.</p>
+                            <a href="http://www.bagolarea.it/" class="btn btn-primary">To the Glamping Caravan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://a0.muscache.com/im/pictures/c9bdd5fd-3f06-476b-8de4-9e691040b2e2.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cefalù</h5>
+                            <p class="card-text">Casa Del Torre - An old tower in Cefalù.</p>
+                            <a href="https://www.airbnb.de/rooms/3127264?_set_bev_on_new_domain=1570469695_U2ntSUXZB5xpdmgR&source_impression_id=p3_1570469758_V5SJOlI4umfK2kTr"
+                                class="btn btn-primary">Go To Torre</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://q-xx.bstatic.com/images/hotel/max1024x768/152/152797833.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Castellammare del Golfo</h5>
+                            <p class="card-text">Beautiful AirBnB in harbour area.</p>
+                            <a href="https://www.booking.com/hotel/it/affitta-camere-da-peppa.de.html"
+                                class="btn btn-primary">Go to "Da Peppa"</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
